@@ -86,7 +86,7 @@ cc.Class({
                 self.moveSpeedX = self.moveDistanceX / moveTime / 5;
                 self.moveSpeedY = self.moveDistanceY / moveTime / 5;
                 self.resistanceX = self.resistance * self.moveSpeedX / self.moveSpeedY;
-                self.resistanceY = Math.abs(self.resistance * self.moveSpeedY / self.moveSpeedX);
+                self.resistanceY = self.resistance;
                 self.curState = GameState.Moving;
                 cc.log("self.moveDistanceX=" + self.moveDistanceX);
                 cc.log("self.moveDistanceY=" + self.moveDistanceY);
