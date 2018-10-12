@@ -3540,3 +3540,78 @@ tick@jsb-adapter/jsb-builtin.js:2023:16
 2018-10-12T09:37:16.221Z - normal: Simulator: Destroy WebGLBuffer (2) by GC
 2018-10-12T09:37:16.222Z - normal: Simulator: Destroy WebGLBuffer (1) by GC
 2018-10-12T09:37:16.223Z - normal: Simulator: ScriptEngine::cleanup end ...
+2018-10-12T09:52:24.633Z - normal: Start building with options : {
+  "actualPlatform": "wechatgame",
+  "apiLevel": "",
+  "appABIs": [],
+  "appKey": "",
+  "appSecret": "",
+  "buildPath": "/Users/workSpace/Charpati/build",
+  "debug": false,
+  "dest": "/Users/workSpace/Charpati/build/wechatgame",
+  "embedWebDebugger": false,
+  "encryptJs": false,
+  "excludeScenes": [],
+  "excludedModules": [],
+  "fb-instant-games": {},
+  "includeAnySDK": false,
+  "includeSDKBox": false,
+  "inlineSpriteFrames": true,
+  "inlineSpriteFrames_native": true,
+  "jailbreakPlatform": false,
+  "md5Cache": false,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "optimizeHotUpdate": false,
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.helloworld",
+  "platform": "wechatgame",
+  "previewHeight": "720",
+  "previewWidth": "1280",
+  "privateKey": "",
+  "qqplay": {
+    "REMOTE_SERVER_ROOT": "",
+    "orientation": "portrait"
+  },
+  "scenes": [
+    "2d2f792f-a40c-49bb-a189-ed176a246e49"
+  ],
+  "sourceMaps": false,
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "template": "link",
+  "title": "hello_world",
+  "useDebugKeystore": true,
+  "vsVersion": "auto",
+  "webOrientation": "auto",
+  "wechatgame": {
+    "REMOTE_SERVER_ROOT": "",
+    "appid": "wx2c4c120cc119b525",
+    "isSubdomain": false,
+    "orientation": "portrait",
+    "subContext": ""
+  },
+  "xxteaKey": "1520a3dd-b034-40",
+  "zipCompressJs": true,
+  "project": "/Users/workSpace/Charpati",
+  "projectName": "hello_world",
+  "debugBuildWorker": false
+}
+2018-10-12T09:52:24.636Z - normal: Building /Users/workSpace/Charpati
+2018-10-12T09:52:24.636Z - normal: Destination /Users/workSpace/Charpati/build/wechatgame
+2018-10-12T09:52:24.828Z - normal: Delete /Users/workSpace/Charpati/build/wechatgame/**/*
+2018-10-12T09:52:26.300Z - normal: Start building assets
+2018-10-12T09:52:26.300Z - normal: Start spawn build-worker
+2018-10-12T09:52:26.840Z - normal: Finish spawn build-worker
+2018-10-12T09:52:26.840Z - normal: Start init build-worker
+2018-10-12T09:52:29.130Z - normal: Finish init build-worker
+2018-10-12T09:52:29.130Z - normal: Start build-assets in worker
+2018-10-12T09:52:29.279Z - normal: Finish build-assets in worker
+2018-10-12T09:52:29.281Z - normal: Finish building assets
+2018-10-12T09:52:29.287Z - normal: Start building plugin scripts
+2018-10-12T09:52:29.321Z - normal: Generating main.js from /Applications/CocosCreator20.app/Contents/Resources/static/build-templates/shares/main.js
+2018-10-12T09:52:30.228Z - normal: Built to "/Users/workSpace/Charpati/build/wechatgame" successfully
