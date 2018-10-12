@@ -260,19 +260,14 @@
     "relativePath": "Scene"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1539332138570,
-    "meta": 1539332305754,
+    "asset": 1539336251961,
+    "meta": 1539336251971,
     "relativePath": "Scene/helloworld.fire"
   },
   "4734c20c-0db8-4eb2-92ea-e692f4d70934": {
-    "asset": 1539332138572,
+    "asset": 1539333587932,
     "meta": 1539332138571,
     "relativePath": "Script"
-  },
-  "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
-    "asset": 1539332138572,
-    "meta": 1539332305881,
-    "relativePath": "Script/HelloWorld.js"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
     "asset": 1539332138573,
@@ -289,9 +284,19 @@
     "meta": 1539332305918,
     "relativePath": "Texture/HelloWorld.png"
   },
+  "9bb02c9d-bace-42e2-99f1-330729fe46f1": {
+    "asset": 1539333514795,
+    "meta": 1539333588063,
+    "relativePath": "Script/Plate.js"
+  },
+  "280c3aec-6492-4a9d-9f51-a9b00b570b4a": {
+    "asset": 1539336309653,
+    "meta": 1539336330324,
+    "relativePath": "Script/HelloWorld.js"
+  },
   "3f5cb05d-bdfc-4cea-9e0b-12ee9f2f1bdc": {
-    "asset": 1539332816355,
-    "meta": 1539332817656,
+    "asset": 1539337015566,
+    "meta": 1539337016228,
     "relativePath": "Script/Charpati.js"
   }
 }

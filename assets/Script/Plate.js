@@ -9,14 +9,6 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        plate: {
-            default: null,
-            type: cc.Sprite,
-        },
-        tipLb: {
-            default: null,
-            type: cc.Label
-        },
         flyDistance:200,
         resistance:100,
     },
@@ -29,7 +21,6 @@ cc.Class({
         this.startPos = this.node.position
         this.worldStartPos = this.node.parent.convertToWorldSpaceAR(this.node.getPosition());
         this.curState = GameState.Idle
-        this.tipLb.string = "Start"
     },
 
     // called every frame
@@ -46,27 +37,12 @@ cc.Class({
             self.node.setPosition(curPos.x+moveDistanceX, curPos.y+moveDistanceY)
         }else{
             self.curState = GameState.End
-            var platePos = self.plate.node.getPosition()
-            var curPos = self.node.getPosition()
-            var distance = (platePos.x-curPos.x)*(platePos.x-curPos.x) + (platePos.y-curPos.y)*(platePos.y-curPos.y)
-            if(distance<75*75){
-                cc.log("WIN")
-                self.tipLb.string = "WIN"
-                var newPosX = 100 + 440*Math.random() - 320
-                var newPosY = 500 + 500*Math.random() - 568
-                self.plate.node.setPosition(newPosX, newPosY)
-                this.retry()
-            }else{
-                cc.log("LOSE")
-                self.tipLb.string = "LOSE"
-            }
         }
     },
 
     retry:function(){
         this.curState = GameState.Idle
         this.node.setPosition(this.startPos)
-        this.tipLb.string = "Start"
     },
 
     registerTouch:function(){
